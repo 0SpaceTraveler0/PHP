@@ -5,7 +5,6 @@
     <meta charset='utf-8'>
 </head>
 <body>
-123
 <?php
     echo "Hello world!";
 ?>
