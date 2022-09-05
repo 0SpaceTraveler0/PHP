@@ -6,28 +6,30 @@
 </head>
 <body>
 <?php
-    //echo "Hello world!\n";
+    include "function.php";
+/*    //echo "Hello world!\n";
     //phpinfo();
     //echo phpversion();
 //    echo "Текущая дата:<Ьr />";
 //    echo date(DATE_RSS);
 
-?>
+*/?>
+
 <?php
-    if(mt_rand( 0, 1)) {
-        ?>
-        <div style='color: green' ><?= "Иcтина"; ?></div>
+/*    if(mt_rand( 0, 1)) {
+        */?><!--
+        <div style='color: green' > <?php /*= "Иcтина"; */?> </div>
         <?php
-    } else {
-        ?>
-    <div style='color:red' ><?= "Ложь" ?></div>
-    <?php } ?>
+/*    } else {
+        */?>
+        <div style='color:red' > <?php /*= "Ложь" */?> </div>
+--><?php /*} */?>
 
 <?php
-
+/*
 echo 'Основной скрипт<br/> ';
-include 'included.php';
+//include 'included.php';
 echo 'Основной скрипт<br/> ';
-?>
+*/?>
 </body>
 </html>
