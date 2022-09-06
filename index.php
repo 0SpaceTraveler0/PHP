@@ -7,6 +7,7 @@
 <body>
 <?php
     include "function.php";
+    // для теста
 /*    //echo "Hello world!\n";
     //phpinfo();
     //echo phpversion();
