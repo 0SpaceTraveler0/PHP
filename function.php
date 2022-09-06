@@ -1,7 +1,15 @@
 <?php
+$num = 123;
+if(is_int($num)) { // true
+echo "Переменная $num является целочисленн"."<br/>";
+}
+
+$int = 123;
+echo ' $int is - '. gettype($int)."<br/>";
+
 $str = '';
 if(isset($str)){ //true
-    echo 'Переменная $str существует <Ьr/> ';
+    echo 'Переменная $str существует'."<br/>";
 }
 $str = <<< HTML_END
 Много текста, прям много офигеть
@@ -18,4 +26,4 @@ echo date(DATE_RFC822).'<br/>';
 print_r( getdate());
 echo  '-----------------'.'<br/>';
 echo mt_rand(0,1000);
-?>
+
