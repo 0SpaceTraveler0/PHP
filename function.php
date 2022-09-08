@@ -1,4 +1,21 @@
 <?php
+echo 'Класс c приватными переменными'."<br/>";
+require_once 'PrivatePoint.php';
+$privatpoint = new PrivatePoint();
+echo '$privatpoint -> y = 123;'.' // ошибка переменная запривачена'."<br/>";
+echo 'Класс'."<br/>";
+require 'Point.php';
+$point = new Point();
+$point ->x = 123;
+
+echo $point ->x."<br/>";
+
+echo ('Десятичное в двоичное 4252 - '.decbin(4252)."<br/>");
+echo ('Десятичное в двоичное 89080 - '.decbin(89080)."<br/>");
+
+$num = 42.43752;
+echo round($num,2)."<br/>";
+
 $num = 123;
 if(is_int($num)) { // true
 echo "Переменная $num является целочисленн"."<br/>";
