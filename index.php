@@ -5,31 +5,22 @@
     <meta charset='utf-8'>
 </head>
 <body>
-<?php
-    include "function.php";
-    // для теста
-/*    //echo "Hello world!\n";
-    //phpinfo();
-    //echo phpversion();
-//    echo "Текущая дата:<Ьr />";
-//    echo date(DATE_RSS);
-
-*/?><!--
-<?php
-/*    if(mt_rand( 0, 1)) {
-        */?>
-        <div style='color: green' ><?php /*= "Иcтина"; */?></div>
-        <?php
-/*    } else {
-        */?>
-    <div style='color:red' ><?php /*= "Ложь" */?></div>
-    <?php /*} */?>
-
---><?php
-/*
-echo 'Основной скрипт<br/> ';
-
-echo 'Основной скрипт<br/> ';
-*/?>
+<form action="function.php" method="POST">
+    <table>
+        <tr>
+            <td>Координаты первой точки</td>
+            <td>X: <p><input type="text" name="num1x"></p></td>
+            <td>Y: <p><input type="text" name="num1y"></p></td>
+            <td>Z: <p><input type="text" name="num1z"></p></td>
+        </tr>
+        <tr>
+            <td>Координаты второй точки</td>
+            <td>X: <p><input type="text" name="num2x"></p></td>
+            <td>Y: <p><input type="text" name="num2y"></p></td>
+            <td>Z: <p><input type="text" name="num2z"></p></td>
+        </tr>
+    </table>
+    <input type="submit" value="start">
+</form>
 </body>
 </html>

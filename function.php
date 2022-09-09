@@ -1,8 +1,32 @@
 <?php
+
+require 'PointAlter.php';
+
+$point1 = new PointAlter();
+$point1 -> x = $_POST['num1x'];
+$point1 -> y = $_POST['num1y'];
+$point1 -> z = $_POST['num1z'];
+
+$point2 = new PointAlter();
+$point2 -> x = $_POST['num2x'];
+$point2 -> y = $_POST['num2y'];
+$point2 -> z = $_POST['num2z'];
+
+$D = sqrt( pow($point2->x - $point1->x,2) +
+                pow($point2->y - $point1->y,2) +
+                pow($point2->z - $point1->z,2));
+
+// "Растояние между двумя точками = $D";
+echo "<p> $D </p>";
+
+
+/*echo 'Класс c статичными переменными'."<br/>";
+
 echo 'Класс c приватными переменными'."<br/>";
 require_once 'PrivatePoint.php';
 $privatpoint = new PrivatePoint();
 echo '$privatpoint -> y = 123;'.' // ошибка переменная запривачена'."<br/>";
+
 echo 'Класс'."<br/>";
 require 'Point.php';
 $point = new Point();
@@ -10,7 +34,10 @@ $point ->x = 123;
 
 echo $point ->x."<br/>";
 
-echo ('Десятичное в двоичное 4252 - '.decbin(4252)."<br/>");
+echo 'Класс c статичными переменными'."<br/>";
+echo Point::$pointItem."<br/>";*/
+
+/*echo ('Десятичное в двоичное 4252 - '.decbin(4252)."<br/>");
 echo ('Десятичное в двоичное 89080 - '.decbin(89080)."<br/>");
 
 $num = 42.43752;
@@ -42,5 +69,5 @@ echo "Feb 8, 2000 is on a " . date("l", mktime(0, 0, 0, 2, 8, 2000)).'<br/>';
 echo date(DATE_RFC822).'<br/>';
 print_r( getdate());
 echo  '-----------------'.'<br/>';
-echo mt_rand(0,1000);
+echo mt_rand(0,1000);*/
 
