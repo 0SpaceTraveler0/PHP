@@ -1,6 +1,21 @@
 <?php
 
-require 'PointAlter.php';
+//echo PHP_VERSION;
+
+//echo __LINE__;
+
+/*// Формируем случайное число от 1 до 10
+$index = mt_rand(1, 10);
+echo mt_rand(1,10);
+//Формируем имя константы
+$name = "VALUE{$index}";
+//Определяем константу с динамическим именем
+define($name, 1);
+// Получаем значение константы
+echo constant($name );*/
+
+
+/*require 'PointAlter.php';
 
 $point1 = new PointAlter();
 $point1 -> x = $_POST['num1x'];
@@ -17,7 +32,7 @@ $D = sqrt( pow($point2->x - $point1->x,2) +
                 pow($point2->z - $point1->z,2));
 
 // "Растояние между двумя точками = $D";
-echo "<p> $D </p>";
+echo "<p> $D </p>";*/
 
 
 /*echo 'Класс c статичными переменными'."<br/>";
