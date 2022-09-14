@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
 </head>
 <body>
-<form action="function.php" method="POST">
+<!--<form action="function.php" method="POST">
     <table>
         <tr>
             <td>Координаты первой точки</td>
@@ -22,5 +22,6 @@
     </table>
     <input type="submit" value="start">
 </form>
-</body>
+--></body>
 </html>
+<?php // echo phpinfo();?>

@@ -1,4 +1,12 @@
 <?php
+/*$simbol= 'a';
+while($simbol!='z'){
+    echo $simbol."</br>";
+    ++$simbol;
+
+}*/
+//require "Point.php";
+
 
 //echo PHP_VERSION;
 
@@ -27,9 +35,7 @@ $point2 -> x = $_POST['num2x'];
 $point2 -> y = $_POST['num2y'];
 $point2 -> z = $_POST['num2z'];
 
-$D = sqrt( pow($point2->x - $point1->x,2) +
-                pow($point2->y - $point1->y,2) +
-                pow($point2->z - $point1->z,2));
+$D = sqrt( pow($point2->x - $point1->x,2) + pow($point2->y - $point1->y,2) + pow($point2->z - $point1->z,2));
 
 // "Растояние между двумя точками = $D";
 echo "<p> $D </p>";*/
