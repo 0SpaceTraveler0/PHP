@@ -1,4 +1,24 @@
 <?php
+
+//echo 6&10;
+
+/*$num1 = 2;
+$num2 = 9;
+$num = $num1;
+echo pow($num1,$num2)."</br>";
+for($i=1;$i<3;$i++){ //ошибка
+    $num1 *=$num;
+    echo $num1.'---'.$i."</br>";
+
+}
+$i=1;
+while($i < $num2){
+    $num1 *=$num;
+    $i++;
+}
+echo $num1."</br>";*/
+
+
 /*$simbol= 'a';
 while($simbol!='z'){
     echo $simbol."</br>";
