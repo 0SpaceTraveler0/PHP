@@ -1,5 +1,9 @@
 <?php
 
+if($qwe = file_get_contents('https://gb.ru')){
+    echo $qwe;
+}
+
 //echo 6&10;
 
 /*$num1 = 2;
